@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/*Igora el tema por default del sistema dark y clases con dark*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+    --color-primary:#F5F8FF;
+    --color-primary-dark:#14161A;
+}
